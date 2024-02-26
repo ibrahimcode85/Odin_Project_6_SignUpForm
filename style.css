@@ -37,7 +37,8 @@ div {
 }
 
 .header{
-    flex: 2;
+    padding-top: 200px;
+
 }
 
 .form{
@@ -45,5 +46,5 @@ div {
 }
 
 .footer{
-    flex: 1;
+    padding-bottom: 200px;
 }
