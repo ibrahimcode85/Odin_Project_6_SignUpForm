@@ -91,6 +91,8 @@ input{
     font-family: "Inter", sans-serif;
     font-size: 0.9rem;
     padding: 5px;
+    border-radius: 5px;
+    border: 1px solid rgba(211, 211, 211, 0.809);
 }
 
 input[type='email']:invalid{
@@ -123,4 +125,15 @@ h4.foot-text{
 
 span.login{
     color: #596D48;
+}
+
+p.password_error{
+    font-size: 15px;
+    color: red;
+    margin-top: 0;
+
+}
+
+input[type='password'].password_error{
+    border: 1px solid red;
 }
