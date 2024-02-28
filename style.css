@@ -118,6 +118,16 @@ button {
     cursor: pointer
 }
 
+button:focus{
+    border: none; 
+}
+
+button:hover{
+    margin-top: 19px; /*add this so that the top border does not get push up.*/
+    border: 1px solid green;
+    background-color: #4c6d48;
+}
+
 
 h4.foot-text{
     margin-top: 15px;
@@ -132,6 +142,12 @@ p.password_error{
     color: red;
     margin-top: 0;
 
+}
+
+p.password_ok{
+    font-size: 15px;
+    color: white;
+    margin-top: 0; 
 }
 
 input[type='password'].password_error{
